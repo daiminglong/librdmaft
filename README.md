@@ -100,7 +100,7 @@ args:
 ```
 
 ## Examples  
-There are an example client.c & server.c for you in the test directory. you can build & run the example.  
+There are an example client.c & server.c for you in the test directory. you can build & run the example.  
 ```
 $> cd test
 $> make  
