@@ -22,7 +22,7 @@ $> make install
 
 ### (1) rdmaft_start_send() 
 
-Description：API used to start a asynchronous rdma file send client & start send file.    
+Description：API used to start a asynchronous rdma file send client & start send file.    
 
 Usage:
 ```
@@ -50,7 +50,7 @@ struct rdmaft_send_client_context {
 
 ### (2) rdmaft_start_recv()  
   
-Description：API used to start a asynchronous rdma file recv server & start recv file.   
+Description：API used to start a asynchronous rdma file recv server & start recv file.   
 
 Usage:
 ```  
@@ -77,7 +77,7 @@ struct rdmaft_recv_server_context {
 
 ### (3) rdmaft_stop_recv()  
   
-Description：API used to stop a rdma file recv server.   
+Description：API used to stop a rdma file recv server.   
 
 Usage:
 ```
@@ -90,7 +90,7 @@ args:
 
 ### (4) rdmaft_reset_recv_buffer_size()  
   
-Description：API used to reset rdma file recv server' rdma recv memory buffer.   
+Description：API used to reset rdma file recv server' rdma recv memory buffer.   
 Usage:
 ```
 void rdmaft_reset_recv_buffer_size(size_t buffer_size);
