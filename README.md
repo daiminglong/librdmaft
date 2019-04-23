@@ -37,7 +37,7 @@ args:
 return:
     rdmaft control struct of the send side defined below.
 
-call back function pointer of the send side:  
+callback function pointer of the send side:  
 typedef void (*rdmaft_send_cb)(const char* filename);
 
 rdmaft control struct of the send side:  
@@ -64,7 +64,7 @@ args:
 return:
     rdmaft control struct of the recv side defined below.
 
-call back function pointer of the recv side:  
+callback function pointer of the recv side:  
 typedef void (*rdmaft_recv_cb)(const char* filename); 
 
 rdmaft control struct of the recv side:  
