@@ -10,7 +10,7 @@ void send_cb_func(const char* filename) {
 
 int main(int argc, char **argv) {
 
-    rdmaft_start_send(arg[1], "15000", "test-file", 10*1024*1024, send_cb_func);
+    rdmaft_start_send(argv[1], "15000", "test-file", 10*1024*1024, send_cb_func);
     while(1);
 
     return 0;
